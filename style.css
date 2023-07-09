@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    align-items: center;
+}
+.menus ul{
+    list-style: none;
+    display: flex;
+    gap:15px;
+    font-size: 20px;
+    padding: 25px 5px;
+}
+

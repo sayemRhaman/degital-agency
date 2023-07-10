@@ -8,11 +8,61 @@
     background-color: lightgray;
     align-items: center;
 }
-.menus ul{
-    list-style: none;
+.menus ul{ 
     display: flex;
-    gap:15px;
-    font-size: 20px;
-    padding: 25px 5px;
+    gap:15px; 
 }
-
+.menus li{
+    list-style: none;
+    transition: all .3s;
+    font-size: 25px;
+    padding: 25px 5px;
+    font-weight: bold;
+}
+.menus li:hover{
+    color:#e91919;
+    cursor: pointer;
+}
+ .banner-container{
+    height: 100vh;
+    background-image: url('./asset/image/background.jpg'),
+    linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.banner-info h1{
+    font-size: 55px;
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+}
+.banner-info span{
+    color:#e91919;
+}
+.disc{
+    font-size: 28px;
+    width: 50%;
+    color:#fff;
+    margin: auto;
+    margin-top: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.btn{
+    padding:12px 30px;
+    background-color: #fff;
+    border: 1px solid #e91919;
+    outline: none;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.btn-praymery{
+  background-color: #e91919;
+  color:#fff;
+}
